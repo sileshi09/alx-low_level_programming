@@ -1,9 +1,9 @@
 #include <stdio.h>
 /*
- * main
- * a program that prints a text line with printf
- *return 0:(Seccuss)
+ * main - A program that prints a line using printf function
+ * Return: 0 (Seccuss)
  */
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,");
 	return (0);
