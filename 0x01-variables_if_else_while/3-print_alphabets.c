@@ -10,22 +10,21 @@ int main(void)
 
 {
 
-        int ch;
+#include <stdio.h>
 
-        clrscr();
+int main(void)
+{
+    int ch;
+      /* print lowercase letters */
+    for (ch= 'a'; ch<= 'z'; ch++)
+    putchar(ch);
+    putchar ('\n') ;
+    /* print uppercase letters */
+    for (ch= 'A'; ch<= 'Z'; ch++)
+    putchar(ch);
+    putchar ('\n' ) ;
 
-        for (ch= ‘a’; ch<= ‘z’; ch++)
+return 0;
 
-             putchar(ch);
-
-             putchar (‘\n’ ) ;
-
-             for (ch= ‘A’; ch<= ‘Z’; ch++)
-
-                  putchar(ch);
-
-                  putchar (‘\n’) ;
-
-                  getch();
-
+}
 }
