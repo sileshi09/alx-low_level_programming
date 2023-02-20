@@ -4,14 +4,6 @@
  *
  * getch() (Success)
  */
-
-
-int main(void)
-
-{
-
-#include <stdio.h>
-
 int main(void)
 {
     int ch;
