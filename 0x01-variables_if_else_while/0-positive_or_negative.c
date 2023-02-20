@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
+/** more headers goes here
  * main - Determines if a number is positive, negative or zero
  *
  * Return: Always 0 (Success)
@@ -10,7 +10,7 @@ int main(void)
 {
 	int n;
 
-	rand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > O)
 	{
